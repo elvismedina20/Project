@@ -1,56 +1,75 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    text-align: center;
 }
 
 header {
     background-color: #333;
     color: white;
-    padding: 1rem;
+    padding: 10px;
+    text-align: center;
 }
 
-nav button {
-    margin: 0 1rem;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    background-color: #444;
+nav {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #4CAF50;
     color: white;
+    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
 }
 
-#game-container {
-    position: relative;
-    width: 80vw;
-    height: 60vh;
-    margin: 2rem auto;
-    background-color: #e4e4e4;
-}
-
-.player {
-    width: 50px;
-    height: 128px;
-    background-color: #000;
-    position: absolute;
-}
-
-#ball {
-    width: 32px;
-    height: 32px;
-    background-color: #ff0000;
-    position: absolute;
+button:hover {
+    background-color: #45a049;
 }
 
 footer {
     background-color: #333;
     color: white;
-    padding: 1rem;
+    padding: 10px;
+    text-align: center;
     position: fixed;
-    bottom: 0;
     width: 100%;
+    bottom: 0;
+}
+
+#game-container {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+.player {
+    width: 50px;
+    height: 50px;
+    background-color: #2196F3;
+    position: absolute;
+}
+
+#ball {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5722;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
 }
 
 h1, h2 {
