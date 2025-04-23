@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav button {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#game-container {
+    position: relative;
+    width: 80vw;
+    height: 60vh;
+    margin: 2rem auto;
+    background-color: #e4e4e4;
+}
+
+.player {
+    width: 50px;
+    height: 128px;
+    background-color: #000;
+    position: absolute;
+}
+
+#ball {
+    width: 32px;
+    height: 32px;
+    background-color: #ff0000;
+    position: absolute;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    font-size: 2rem;
+    color: #333;
+}
